@@ -35,7 +35,7 @@ setup(
 	# Dependent packages (distributions)
 	install_requires=[
 		'websocket-client',
-		'astor>=0.6.0'
+		'astor>=0.6',
 		'requests',
 	],
 )
