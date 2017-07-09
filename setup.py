@@ -30,7 +30,7 @@ setup(
 
 	long_description=open("README.md").read(),
 	dependency_links=[
-		'https://github.com/berkerpeksag/astor/tarball/master#egg=astor-0.6.%s' % int(time.time()),
+		'https://github.com/berkerpeksag/astor/tarball/master#egg=astor-0.6',
 	],
 	# Dependent packages (distributions)
 	install_requires=[
