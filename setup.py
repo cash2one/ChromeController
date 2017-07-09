@@ -15,7 +15,7 @@ setup(
 	author_email="github@imaginaryindustries.com",
 
 	# Packages
-	packages=[setuptools.find_packages()],
+	packages=setuptools.find_packages(),
 	package_dir = {'ChromeController': 'ChromeController'},
 
 	# Bundle the protocol json files.
