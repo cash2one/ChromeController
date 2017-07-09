@@ -8,7 +8,7 @@ setup(
 	name="ChromeController",
 
 	# Version number (initial):
-	version="0.0.2",
+	version="0.0.3",
 
 	# Application author details:
 	author="Connor Wolf	",
@@ -16,6 +16,8 @@ setup(
 
 	# Packages
 	packages=[setuptools.find_packages()],
+	package_dir = {'ChromeController': 'ChromeController'},
+
 	# Bundle the protocol json files.
 	package_data={'ChromeController': ['protocols/*.json']},
 
