@@ -30,11 +30,12 @@ setup(
 
 	long_description=open("README.md").read(),
 	dependency_links=[
-		'https://github.com/berkerpeksag/astor/tarball/master#egg=lol_%s_wat' % int(time.time()),
+		'https://github.com/berkerpeksag/astor/tarball/master#egg=astor-0.6.%s-beta' % int(time.time()),
 	],
 	# Dependent packages (distributions)
 	install_requires=[
 		'websocket-client',
+		'astor>=0.6.0'
 		'requests',
 	],
 )
